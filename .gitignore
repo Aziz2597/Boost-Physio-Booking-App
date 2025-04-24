@@ -1,0 +1,15 @@
+# Java-related
+*.class
+*.jar
+*.log
+*.war
+*.ear
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# VS Code
+.vscode/
