@@ -1,4 +1,4 @@
-package main.java;
+package com.boostphysio;
 
 import java.util.Comparator;
 import java.util.HashMap;

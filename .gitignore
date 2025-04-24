@@ -1,15 +1,31 @@
 # Java-related
 *.class
-*.jar
 *.log
+*.jar
 *.war
 *.ear
+*.iml
+*.ipr
+*.iws
+*.DS_Store
 
-# Maven
+# Maven output
 /target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
 
 # VS Code
 .vscode/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Optional backup files
+*.bak
+*.swp
+*~ 
+
+# Test output (if any)
+test-output/

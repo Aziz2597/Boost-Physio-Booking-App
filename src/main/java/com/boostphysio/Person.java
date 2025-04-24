@@ -1,4 +1,4 @@
-package main.java;
+package com.boostphysio;
 
 public abstract class Person {
     private int id;

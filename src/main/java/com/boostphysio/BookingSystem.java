@@ -1,4 +1,4 @@
-package main.java;
+package com.boostphysio;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

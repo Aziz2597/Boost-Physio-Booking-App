@@ -1,4 +1,4 @@
-package main.java;
+package com.boostphysio;
 
 
 public class Treatment {

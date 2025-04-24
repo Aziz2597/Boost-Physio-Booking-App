@@ -1,4 +1,4 @@
-package main.java;
+package com.boostphysio;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,8 +26,12 @@ public class Physiotherapist extends Person {
     }
     
     public boolean hasExpertise(String area) {
+        for (String expertise : expertiseAreas) {
+            System.out.println("Comparing treatment expertise [" + area + "] with physio expertise [" + expertise + "]");
+        }
         return expertiseAreas.contains(area);
     }
+    
     
     // Treatment methods
     public void addTreatment(Treatment treatment) {
